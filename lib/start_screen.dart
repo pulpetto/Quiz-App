@@ -5,6 +5,6 @@ class StartScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Start Screen');
+    return Center(child: Text('Start Screen'));
   }
 }
