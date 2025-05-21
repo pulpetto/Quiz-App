@@ -10,6 +10,16 @@ class QuestionsScreen extends StatefulWidget {
 class _QuestionsScreenState extends State<QuestionsScreen> {
   @override
   Widget build(BuildContext context) {
-    return Text('Questions');
+    return SizedBox(
+      width: double.infinity,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text('Question'),
+          SizedBox(height: 30),
+          ElevatedButton(onPressed: () {}, child: Text('Answear 1')),
+        ],
+      ),
+    );
   }
 }
